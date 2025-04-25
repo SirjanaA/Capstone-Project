@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cassie's Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fafafa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      animation: fadeInDown 1s ease;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 2rem 1rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .content-block {
+      background-color: #fff;
+      border-radius: 6px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+      animation: fadeInUp 0.8s ease;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem 1rem;
+      font-size: 0.9rem;
+      color: #777;
+      background-color: #f0f0f0;
+    }
+
+    /* Animations */
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cassie’s Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#styles">CSS Highlights</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <div class="content-block">
+      <p>This portfolio showcases public-facing work completed by Cassie, focusing on clean web design, user-first experiences, and lightweight, accessible code. All content is styled with minimal CSS and no media files, for a fast, distraction-free experience.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Manson Projects</h2>
+    <div class="content-block">
+      <h3>Website Restructure</h3>
+      <p>Redesigned page layout and navigation system for better accessibility and simplified user flow. The final result reduced average click-to-content time by 35%.</p>
+    </div>
+    <div class="content-block">
+      <h3>Form Handling Updates</h3>
+      <p>Implemented input validation using native HTML5 features and lightweight JavaScript, reducing user errors and backend load.</p>
+    </div>
+    <div class="content-block">
+      <h3>Public Pages Optimization</h3>
+      <p>Minimized page size through removal of unnecessary media and streamlined CSS, improving load time and performance on low-bandwidth connections.</p>
+    </div>
+  </section>
+
+  <section id="styles">
+    <h2>CSS Highlights</h2>
+    <div class="content-block">
+      <p>This site uses simple animations like <code>fadeInUp</code> and <code>fadeInDown</code> to subtly bring attention to content as users scroll or load the page.</p>
+      <p>Each section block has soft shadows and padding for visual separation without borders or imagery, supporting a clean, reader-friendly layout.</p>
+      <p>Transitions are handled purely in CSS, ensuring full compatibility and performance across modern browsers without external libraries.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Cassie | Built with clean HTML & CSS | No images. No noise.</p>
+  </footer>
+</body>
+</html>
