@@ -15,8 +15,8 @@ https://developer.hashicorp.com/packer/tutorials/aws-get-started/aws-get-started
 Create an EC2 instance 
 
 Log in to IAM user is  your Access Key and Secret Key
--> Go to Iam users search intended user name.
--> Under security credentials select access kets and create access key.
--> Under access ket best practices choose CLI/ others. 
--> Next provide a descritpion for your key name and done.
--> Download the csv file and keep it safe either in secrets server or password manager.
+* Go to Iam users search intended user name.
+* Under security credentials select access kets and create access key.
+* Under access ket best practices choose CLI/ others. 
+* Next provide a descritpion for your key name and done.
+* Download the csv file and keep it safe either in secrets server or password manager.
